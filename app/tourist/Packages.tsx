@@ -390,11 +390,11 @@ function PackageCard({ pkg }: { pkg: TourPackage }) {
           className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0f2557]/60 to-transparent" />
-        {pkg.featured && (
+        {/*{pkg.featured && (
           <div className="absolute top-3 right-3 bg-[#f97316] text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wide">
             Featured
           </div>
-        )}
+        )}*/}
         <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm text-[#0f2557] text-[10px] font-bold px-2.5 py-1.5 rounded-full uppercase tracking-wide shadow-lg">
           <CategoryIcon size={12} className="text-[#f97316]" />
           {categoryLabel}

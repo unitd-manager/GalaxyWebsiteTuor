@@ -1014,14 +1014,6 @@ function PackageCard({ pkg }) {
                         lineNumber: 392,
                         columnNumber: 9
                     }, this),
-                    pkg.featured && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute top-3 right-3 bg-[#f97316] text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wide",
-                        children: "Featured"
-                    }, void 0, false, {
-                        fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 394,
-                        columnNumber: 11
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute top-3 left-3 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm text-[#0f2557] text-[10px] font-bold px-2.5 py-1.5 rounded-full uppercase tracking-wide shadow-lg",
                         children: [
