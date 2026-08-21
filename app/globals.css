@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offsets anchor scroll targets so the fixed navbar doesn't cover the section title */
+section[id] {
+  scroll-margin-top: 96px;
+}
 
 /* Galaxy Tours and Travels Design System - Islamic-inspired travel website */
 

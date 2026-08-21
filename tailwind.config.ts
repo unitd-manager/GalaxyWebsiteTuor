@@ -19,12 +19,19 @@ export default {
 		extend: {
 			fontFamily: {
 				display: ['Inter', 'system-ui', 'sans-serif'],
-				body: ['Inter', 'system-ui', 'sans-serif']
+				body: ['Inter', 'system-ui', 'sans-serif'],
+				heading: ['Poppins', 'sans-serif']
 			},
 			colors: {
 				'islamic-orange': '#FF6B00',
 				'cream': '#FFF8E7',
 				'dark-text': '#1A1A1A',
+				neutral: {
+					400: '#94a3b8',
+					500: '#64748b',
+					600: '#475569',
+					700: '#334155'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
