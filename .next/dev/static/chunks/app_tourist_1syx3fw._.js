@@ -2619,7 +2619,7 @@ function TouristHero() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-white text-5xl md:text-6xl lg:text-7xl font-bold font-heading leading-tight mb-6",
                             children: [
-                                "Your Dream",
+                                "Your Journey Begins",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/app/tourist/TouristHero.tsx",
                                     lineNumber: 46,
@@ -2627,18 +2627,12 @@ function TouristHero() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-[#f97316]",
-                                    children: "Destination"
+                                    children: "with the Right Flight"
                                 }, void 0, false, {
                                     fileName: "[project]/app/tourist/TouristHero.tsx",
                                     lineNumber: 47,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                    fileName: "[project]/app/tourist/TouristHero.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                "Awaits You"
+                                }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/tourist/TouristHero.tsx",
@@ -2647,10 +2641,10 @@ function TouristHero() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-white/75 text-lg md:text-xl max-w-xl mb-10 leading-relaxed",
-                            children: "From tropical paradises to ancient wonders — discover handcrafted tour packages across Asia, the Middle East & island escapes, all expertly planned for an unforgettable journey."
+                            children: "Explore destinations around the world with convenient flight booking services. Compare airline options, explore available fares, and get expert booking assistance from Galaxy Tours & Travels for a smooth and hassle-free journey."
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                            lineNumber: 52,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2665,13 +2659,13 @@ function TouristHero() {
                                             size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 63,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/tourist/TouristHero.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2680,13 +2674,13 @@ function TouristHero() {
                                     children: "Get Custom Quote"
                                 }, void 0, false, {
                                     fileName: "[project]/app/tourist/TouristHero.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                            lineNumber: 58,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2699,7 +2693,7 @@ function TouristHero() {
                                             size: 22
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2707,7 +2701,7 @@ function TouristHero() {
                                             children: value
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2715,18 +2709,18 @@ function TouristHero() {
                                             children: label
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 84,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, label, true, {
                                     fileName: "[project]/app/tourist/TouristHero.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/TouristHero.tsx",
-                            lineNumber: 75,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2748,20 +2742,20 @@ function TouristHero() {
                         children: "Scroll to explore"
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/TouristHero.tsx",
-                        lineNumber: 94,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-0.5 h-8 bg-gradient-to-b from-white/40 to-transparent animate-pulse"
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/TouristHero.tsx",
-                        lineNumber: 95,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/tourist/TouristHero.tsx",
-                lineNumber: 93,
+                lineNumber: 92,
                 columnNumber: 7
             }, this)
         ]

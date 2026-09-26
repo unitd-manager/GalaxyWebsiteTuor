@@ -42,17 +42,16 @@ export default function TouristHero() {
           </div>
 
           <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold font-heading leading-tight mb-6">
-            Your Dream
+            Your Journey Begins
             <br />
-            <span className="text-[#f97316]">Destination</span>
-            <br />
-            Awaits You
+            <span className="text-[#f97316]">with the Right Flight</span>
           </h1>
 
           <p className="text-white/75 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
-            From tropical paradises to ancient wonders — discover handcrafted
-            tour packages across Asia, the Middle East &amp; island escapes,
-            all expertly planned for an unforgettable journey.
+            Explore destinations around the world with convenient flight booking
+            services. Compare airline options, explore available fares, and get
+            expert booking assistance from Galaxy Tours &amp; Travels for a smooth
+            and hassle-free journey.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-16">

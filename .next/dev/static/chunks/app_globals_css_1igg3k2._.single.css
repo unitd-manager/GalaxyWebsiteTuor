@@ -1409,10 +1409,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
-.gap-0 {
-  gap: 0;
-}
-
 .gap-1 {
   gap: .25rem;
 }
@@ -1672,11 +1668,6 @@ h1, h2, h3, h4, h5, h6 {
 .border-\[\#e2e8f0\] {
   --tw-border-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
-}
-
-.border-\[\#f1f5f9\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(241 245 249 / var(--tw-border-opacity, 1));
 }
 
 .border-\[\#f97316\] {
@@ -1964,11 +1955,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-white\/95 {
   background-color: #fffffff2;
-}
-
-.bg-\[\#f5f7fb\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 247 251 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-b {
@@ -2793,13 +2779,8 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-orange-500\/20, .shadow-\[\#f97316\]\/20 {
+.shadow-\[\#f97316\]\/20, .shadow-orange-500\/20 {
   --tw-shadow-color: #f9731633;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-\[\#0f2557\]\/10 {
-  --tw-shadow-color: #0f25571a;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -3169,11 +3150,6 @@ section[id] {
   background-color: rgb(234 108 10 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-\[\#f8faff\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 255 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:bg-\[\#f97316\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
@@ -3517,19 +3493,14 @@ section[id] {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.group:hover .group-hover\:text-\[\#f97316\] {
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
-}
-
-.group:hover .group-hover\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .group:hover .group-hover\:text-\[\#0f2557\] {
   --tw-text-opacity: 1;
   color: rgb(15 37 87 / var(--tw-text-opacity, 1));
+}
+
+.group:hover .group-hover\:text-\[\#f97316\] {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
 }
 
 .group\/menu-item:hover .group-hover\/menu-item\:opacity-100, .group:hover .group-hover\:opacity-100 {
@@ -4303,10 +4274,6 @@ section[id] {
     flex-direction: row;
   }
 
-  .md\:border-b-0 {
-    border-bottom-width: 0;
-  }
-
   .md\:border-r {
     border-right-width: 1px;
   }
@@ -4442,12 +4409,6 @@ section[id] {
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
