@@ -54,11 +54,11 @@ export default function TouristNavbar() {
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+917507832020"
+            href="tel:+919750792020"
             className="flex items-center gap-1.5 text-[#0f2557]/70 text-sm hover:text-[#0f2557] transition-colors"
           >
             <Phone size={14} />
-            +91 75078 32020
+            +91 9750 792 020
           </a>
           <a
             href="#packages"

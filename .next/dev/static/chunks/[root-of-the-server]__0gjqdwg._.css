@@ -880,8 +880,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: auto;
 }
 
-.line-clamp-2 {
-  -webkit-line-clamp: 2;
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   display: -webkit-box;
   overflow: hidden;
@@ -2045,6 +2045,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fffffff2;
 }
 
+.bg-\[\#f5f7fb\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 247 251 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2169,10 +2174,6 @@ h1, h2, h3, h4, h5, h6 {
 .bg-clip-text {
   -webkit-background-clip: text;
   background-clip: text;
-}
-
-.fill-\[\#f97316\] {
-  fill: #f97316;
 }
 
 .fill-accent {
@@ -2871,8 +2872,13 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-orange-500\/20 {
+.shadow-orange-500\/20, .shadow-\[\#f97316\]\/20 {
   --tw-shadow-color: #f9731633;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\[\#0f2557\]\/10 {
+  --tw-shadow-color: #0f25571a;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -3585,6 +3591,11 @@ section[id] {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
 }
 
+.group:hover .group-hover\:bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .group:hover .group-hover\:text-\[\#f97316\] {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
@@ -3593,6 +3604,11 @@ section[id] {
 .group:hover .group-hover\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.group:hover .group-hover\:text-\[\#0f2557\] {
+  --tw-text-opacity: 1;
+  color: rgb(15 37 87 / var(--tw-text-opacity, 1));
 }
 
 .group\/menu-item:hover .group-hover\/menu-item\:opacity-100, .group:hover .group-hover\:opacity-100 {
@@ -4505,6 +4521,12 @@ section[id] {
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 

@@ -87,7 +87,7 @@ export default function TouristFooter() {
                 <Smartphone size={16} />
               </a>
               <a
-                href="tel:+917507832020"
+                href="tel:+919750792020"
                 aria-label="Phone"
                 className="w-9 h-9 bg-white/10 hover:bg-[#f97316] rounded-lg flex items-center justify-center transition-colors"
               >
@@ -122,15 +122,15 @@ export default function TouristFooter() {
         <div className="grid sm:grid-cols-3 gap-4 mt-12 pt-8 border-t border-white/10">
           <div className="flex items-center gap-2.5 text-white/60 text-sm">
             <Phone className="text-[#f97316]" size={16} />
-            +91 75078 32020
+            +91 9750 792 020
           </div>
           <div className="flex items-center gap-2.5 text-white/60 text-sm">
             <Mail className="text-[#f97316]" size={16} />
-            info@galaxytours.com
+            info@galaxytourstravels.com
           </div>
           <div className="flex items-center gap-2.5 text-white/60 text-sm">
             <MapPin className="text-[#f97316]" size={16} />
-            Chennai, Tamil Nadu, India
+            Universal 36/22, Balaji Nagar, 2nd Street, Royapettah
           </div>
         </div>
       </div>

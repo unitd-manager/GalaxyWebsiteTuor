@@ -230,28 +230,28 @@ var _s = __turbopack_context__.k.signature();
 ;
 const faqs = [
     {
-        q: 'Are flights included in the package price?',
-        a: 'Yes, all our packages include return economy flights from your departure city unless stated otherwise. We can also arrange upgrades to business class on request.'
+        q: "Which destinations can I book flights to?",
+        a: "We currently focus on international flight bookings for destinations including Sri Lanka, Singapore, Malaysia, Vietnam, Cambodia, Thailand, UAE, Azerbaijan, Kazakhstan, Maldives, and Mauritius."
     },
     {
-        q: 'Can I customise a package to fit my budget?',
-        a: 'Absolutely. Every itinerary is flexible. You can adjust hotel categories, add or remove activities, change duration, or upgrade room types. Tell us your budget and we will tailor accordingly.'
+        q: "Can you help me find suitable flight options?",
+        a: "Yes. Share your destination, preferred travel dates, and passenger details with us. We can help you explore available flight options based on your travel requirements."
     },
     {
-        q: 'Do you assist with visa applications?',
-        a: 'Yes, we provide complete visa assistance including documentation guidance, application support, and appointment scheduling for all the destinations we offer.'
+        q: "Can I choose between different airlines and fares?",
+        a: "Yes. We can provide available airline and fare options for your selected route, allowing you to choose an option that suits your travel requirements."
     },
     {
-        q: 'What is the booking and cancellation policy?',
-        a: 'A 25% advance confirms your booking, with the balance due 15 days before departure. Cancellation charges vary by destination and how close to departure you cancel — full details are shared at the time of booking.'
+        q: "How can I enquire about a flight booking?",
+        a: "Simply use the Enquire Now button on our website or contact our team with your destination and travel dates. Our team will get back to you with the available flight options."
     },
     {
-        q: 'Are these group tours or private tours?',
-        a: 'We offer both. You can join a fixed-departure group tour for a more social experience, or book a fully private package tailored just for your family or friends.'
+        q: "Can I request a specific travel date or destination?",
+        a: "Yes. You can share your preferred destination and travel dates with us. We will check the available flight options for your requested journey."
     },
     {
-        q: 'Is travel insurance included?',
-        a: 'Travel insurance is not included by default but we strongly recommend it. We can add comprehensive travel insurance to any package at a nominal cost.'
+        q: "What information do I need to provide for booking?",
+        a: "To check flight options, we generally need your destination, travel date, preferred return date if applicable, number of passengers, and any specific travel requirements."
     }
 ];
 function FAQ() {
@@ -271,7 +271,7 @@ function FAQ() {
                             children: "Good To Know"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/FAQ.tsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -279,55 +279,65 @@ function FAQ() {
                             children: "Frequently Asked Questions"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/FAQ.tsx",
-                            lineNumber: 44,
+                            lineNumber: 46,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-neutral-500 max-w-2xl mx-auto text-sm md:text-base leading-relaxed mb-6",
+                            children: "Find answers to common questions about our international flight booking services."
+                        }, void 0, false, {
+                            fileName: "[project]/app/tourist/FAQ.tsx",
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-16 h-1 bg-[#f97316] mx-auto rounded-full"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/FAQ.tsx",
-                            lineNumber: 47,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/tourist/FAQ.tsx",
-                    lineNumber: 40,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "space-y-3",
                     children: faqs.map((faq, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `rounded-2xl border transition-all duration-200 ${open === i ? 'border-[#93c5fd] bg-[#f8faff] shadow-sm' : 'border-[#e2e8f0] bg-white'}`,
+                            className: `rounded-2xl border transition-all duration-200 ${open === i ? "border-[#93c5fd] bg-[#f8faff] shadow-sm" : "border-[#e2e8f0] bg-white"}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    type: "button",
                                     onClick: ()=>setOpen(open === i ? null : i),
                                     className: "w-full flex items-center justify-between gap-4 p-5 text-left",
+                                    "aria-expanded": open === i,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-[#0f2557] font-semibold text-sm md:text-base",
                                             children: faq.q
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/FAQ.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 77,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
-                                            className: `text-[#f97316] shrink-0 transition-transform duration-200 ${open === i ? 'rotate-180' : ''}`,
+                                            className: `text-[#f97316] shrink-0 transition-transform duration-200 ${open === i ? "rotate-180" : ""}`,
                                             size: 20
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/FAQ.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/tourist/FAQ.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 69,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `grid transition-all duration-300 ${open === i ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`,
+                                    className: `grid transition-all duration-300 ${open === i ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "overflow-hidden",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -335,28 +345,28 @@ function FAQ() {
                                             children: faq.a
                                         }, void 0, false, {
                                             fileName: "[project]/app/tourist/FAQ.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 97,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/tourist/FAQ.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 96,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/tourist/FAQ.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 89,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/app/tourist/FAQ.tsx",
-                            lineNumber: 53,
+                            lineNumber: 61,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/tourist/FAQ.tsx",
-                    lineNumber: 51,
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -364,25 +374,25 @@ function FAQ() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-neutral-500 text-sm mb-3",
-                            children: "Still have questions?"
+                            children: "Need help finding a flight?"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/FAQ.tsx",
-                            lineNumber: 92,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "#contact",
                             className: "inline-flex items-center gap-2 text-[#f97316] hover:text-[#0f2557] font-semibold text-sm transition-colors",
-                            children: "Contact our team"
+                            children: "Enquire for Flight Booking"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/FAQ.tsx",
-                            lineNumber: 95,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/tourist/FAQ.tsx",
-                    lineNumber: 91,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             ]
@@ -416,19 +426,17 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-client] (ecmascript) <export default as Star>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plane$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plane$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/plane.js [app-client] (ecmascript) <export default as Plane>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hotel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Hotel$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/hotel.js [app-client] (ecmascript) <export default as Hotel>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.js [app-client] (ecmascript) <export default as Utensils>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/camera.js [app-client] (ecmascript) <export default as Camera>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/check.js [app-client] (ecmascript) <export default as Check>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layout$2d$grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LayoutGrid$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/layout-grid.js [app-client] (ecmascript) <export default as LayoutGrid>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/waves.js [app-client] (ecmascript) <export default as Waves>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building-2.js [app-client] (ecmascript) <export default as Building2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mountain.js [app-client] (ecmascript) <export default as Mountain>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/earth.js [app-client] (ecmascript) <export default as Globe2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$badge$2d$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BadgeDollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/badge-dollar-sign.js [app-client] (ecmascript) <export default as BadgeDollarSign>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/headphones.js [app-client] (ecmascript) <export default as Headphones>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -436,314 +444,255 @@ var _s = __turbopack_context__.k.signature();
 ;
 const packages = [
     {
-        id: 'srilanka',
-        country: 'Sri Lanka',
-        title: 'Pearl of the Indian Ocean',
-        description: 'Discover ancient temples, misty tea hills, and golden beaches. From Kandy to Bentota, experience Sri Lanka\'s rich heritage and warm hospitality.',
-        image: 'https://images.pexels.com/photos/5656452/pexels-photo-5656452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 6,
-        days: 7,
-        destinations: 'Colombo · Kandy · Nuwara Eliya · Bentota',
-        price: 38999,
-        rating: 4.7,
+        id: "srilanka",
+        country: "Sri Lanka",
+        title: "Sri Lanka – Island Escape",
+        description: "Plan your journey to Sri Lanka with convenient international flight booking services. Explore available flight options and choose a suitable itinerary for your travel requirements.",
+        image: "https://images.pexels.com/photos/5656452/pexels-photo-5656452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Colombo · Kandy · Nuwara Eliya · Bentota",
         featured: true,
         highlights: [
-            'Temple of Tooth',
-            'Tea Plantations',
-            'Galle Fort',
-            'Bentota Beach'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'singapore',
-        country: 'Singapore',
-        title: 'The Lion City Escape',
-        description: 'A futuristic city of gardens, iconic skylines, and world-class attractions. Universal Studios, Sentosa, and Marina Bay await.',
-        image: 'https://images.pexels.com/photos/18662417/pexels-photo-18662417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 4,
-        days: 5,
-        destinations: 'Singapore · Sentosa',
-        price: 54999,
-        rating: 4.8,
+        id: "singapore",
+        country: "Singapore",
+        title: "Singapore – City Escape",
+        description: "Plan your trip to Singapore with convenient flight booking services. Explore available airline and fare options and select a suitable flight for your journey.",
+        image: "https://images.pexels.com/photos/18662417/pexels-photo-18662417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Singapore · Marina Bay · Sentosa",
         featured: true,
         highlights: [
-            'Universal Studios',
-            'Gardens by the Bay',
-            'Sentosa Island',
-            'Night Safari'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'malaysia',
-        country: 'Malaysia',
-        title: 'Truly Asia Adventure',
-        description: 'From the towering Petronas Towers to the lush Cameron Highlands and Borneo rainforests — Malaysia offers a vibrant cultural mosaic.',
-        image: 'https://images.pexels.com/photos/9395978/pexels-photo-9395978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 5,
-        days: 6,
-        destinations: 'Kuala Lumpur · Genting · Putrajaya',
-        price: 41999,
-        rating: 4.6,
+        id: "malaysia",
+        country: "Malaysia",
+        title: "Malaysia – Truly Asia",
+        description: "Discover flight options to Malaysia with Galaxy Tours Travels. Get convenient booking assistance and choose a suitable itinerary based on your travel needs.",
+        image: "https://images.pexels.com/photos/9395978/pexels-photo-9395978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Kuala Lumpur · Genting · Putrajaya",
         highlights: [
-            'Petronas Towers',
-            'Genting Highlands',
-            'Batu Caves',
-            'KL City Tour'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'vietnam',
-        country: 'Vietnam',
-        title: 'Charming Vietnam Trail',
-        description: 'Cruise through Ha Long Bay, wander Hanoi\'s Old Quarter, and explore the lantern-lit streets of Hoi An in this enchanting journey.',
-        image: 'https://images.pexels.com/photos/37405714/pexels-photo-37405714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 6,
-        days: 7,
-        destinations: 'Hanoi · Ha Long Bay · Da Nang · Hoi An',
-        price: 44999,
-        rating: 4.7,
+        id: "vietnam",
+        country: "Vietnam",
+        title: "Vietnam – Discover the Charm",
+        description: "Plan your journey to Vietnam with flexible flight booking options. Explore available flights and get assistance in selecting a suitable travel itinerary.",
+        image: "https://images.pexels.com/photos/37405714/pexels-photo-37405714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Hanoi · Ha Long Bay · Da Nang · Hoi An",
         highlights: [
-            'Ha Long Bay Cruise',
-            'Hoi An Ancient Town',
-            'Mekong Delta',
-            'Cu Chi Tunnels'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'cambodia',
-        country: 'Cambodia',
-        title: 'Kingdom of Wonder',
-        description: 'Stand in awe before Angkor Wat at sunrise, explore floating villages, and uncover the soul of Southeast Asia\'s hidden gem.',
-        image: 'https://images.pexels.com/photos/15890594/pexels-photo-15890594.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 4,
-        days: 5,
-        destinations: 'Siem Reap · Phnom Penh',
-        price: 36999,
-        rating: 4.6,
+        id: "cambodia",
+        country: "Cambodia",
+        title: "Cambodia – Kingdom of Wonder",
+        description: "Explore flight options to Cambodia with Galaxy Tours Travels. Choose from available airlines and fares with convenient booking assistance.",
+        image: "https://images.pexels.com/photos/15890594/pexels-photo-15890594.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Siem Reap · Phnom Penh",
         highlights: [
-            'Angkor Wat Sunrise',
-            'Tonle Sap Lake',
-            'Royal Palace',
-            'Killing Fields'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'thailand',
-        country: 'Thailand',
-        title: 'Land of Smiles',
-        description: 'Glide through Bangkok\'s canals, relax on Phuket\'s beaches, and indulge in world-famous Thai cuisine on this tropical adventure.',
-        image: 'https://images.pexels.com/photos/30540817/pexels-photo-30540817.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 5,
-        days: 6,
-        destinations: 'Bangkok · Phuket · Pattaya',
-        price: 39999,
-        rating: 4.8,
+        id: "thailand",
+        country: "Thailand",
+        title: "Thailand – Tropical Getaway",
+        description: "Plan your Thailand journey with convenient flight booking services. Explore available flight and fare options and choose an itinerary that suits your travel requirements.",
+        image: "https://images.pexels.com/photos/30540817/pexels-photo-30540817.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Bangkok · Phuket · Pattaya",
         featured: true,
         highlights: [
-            'Grand Palace',
-            'Coral Island',
-            'Phi Phi Islands',
-            'Thai Massage'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'uae',
-        country: 'UAE',
-        title: 'Dubai & Abu Dhabi Glamour',
-        description: 'Experience the glitz of Burj Khalifa, thrill of desert safaris, and serenity of mosques. The UAE blends ultra-modern with deeply traditional.',
-        image: 'https://images.pexels.com/photos/26926258/pexels-photo-26926258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 4,
-        days: 5,
-        destinations: 'Dubai · Abu Dhabi',
-        price: 59999,
-        rating: 4.9,
+        id: "uae",
+        country: "UAE",
+        title: "UAE – Dubai & Abu Dhabi",
+        description: "Explore flight options to the UAE with convenient booking assistance. Choose from available airlines and fare options for your Dubai or Abu Dhabi journey.",
+        image: "https://images.pexels.com/photos/26926258/pexels-photo-26926258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Dubai · Abu Dhabi",
         featured: true,
         highlights: [
-            'Burj Khalifa',
-            'Desert Safari',
-            'Sheikh Zayed Mosque',
-            'Dhow Cruise'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'azerbaijan',
-        country: 'Azerbaijan',
-        title: 'Land of Fire',
-        description: 'Where East meets West. Explore Baku\'s flame towers, ancient fire temples, and the Caucasus Mountains in this emerging gem.',
-        image: 'https://images.pexels.com/photos/36551751/pexels-photo-36551751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 4,
-        days: 5,
-        destinations: 'Baku · Gabala · Gobustan',
-        price: 52999,
-        rating: 4.6,
+        id: "azerbaijan",
+        country: "Azerbaijan",
+        title: "Azerbaijan – Land of Fire",
+        description: "Plan your journey to Azerbaijan with convenient international flight booking. Explore available airline and fare options with assistance from Galaxy Tours Travels.",
+        image: "https://images.pexels.com/photos/36551751/pexels-photo-36551751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Baku · Gabala · Gobustan",
         highlights: [
-            'Flame Towers',
-            'Gobustan Rock Art',
-            'Fire Temple',
-            'Caspian Sea'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'kazakhstan',
-        country: 'Kazakhstan',
-        title: 'Steppe & Peaks Explorer',
-        description: 'Vast steppes, alpine lakes, and modern cities. Discover Almaty\'s charm, Charyn Canyon, and the beauty of Central Asia.',
-        image: 'https://images.pexels.com/photos/36811098/pexels-photo-36811098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 4,
-        days: 5,
-        destinations: 'Almaty · Charyn Canyon · Kaindy Lake',
-        price: 57999,
-        rating: 4.5,
+        id: "kazakhstan",
+        country: "Kazakhstan",
+        title: "Kazakhstan – Steppe & Peaks",
+        description: "Discover flight options to Kazakhstan with convenient booking assistance. Explore available airlines and fares for your international travel plans.",
+        image: "https://images.pexels.com/photos/36811098/pexels-photo-36811098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Almaty · Charyn Canyon · Kaindy Lake",
         highlights: [
-            'Charyn Canyon',
-            'Kaindy Lake',
-            'Medeu Rink',
-            'Almaty City Tour'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'maldives',
-        country: 'Maldives',
-        title: 'Paradise Found',
-        description: 'Crystal-clear lagoons, overwater villas, and pristine coral reefs. The Maldives is the ultimate luxury island escape.',
-        image: 'https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 4,
-        days: 5,
-        destinations: 'Male · Resort Island',
-        price: 89999,
-        rating: 4.9,
+        id: "maldives",
+        country: "Maldives",
+        title: "Maldives – Paradise Escape",
+        description: "Plan your journey to the Maldives with convenient flight booking services. Explore available flight and fare options for your island getaway.",
+        image: "https://images.pexels.com/photos/1287455/pexels-photo-1287455.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Malé · Resort Islands",
         featured: true,
         highlights: [
-            'Overwater Villa',
-            'Snorkeling',
-            'Sunset Dolphin',
-            'Sandbank Picnic'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     },
     {
-        id: 'mauritius',
-        country: 'Mauritius',
-        title: 'Tropical Island Bliss',
-        description: 'Powder-white beaches, turquoise lagoons, and lush interiors. Mauritius offers romance, adventure, and pure relaxation.',
-        image: 'https://images.pexels.com/photos/33791769/pexels-photo-33791769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 6,
-        days: 7,
-        destinations: 'Port Louis · Grand Baie · Le Morne',
-        price: 79999,
-        rating: 4.8,
+        id: "mauritius",
+        country: "Mauritius",
+        title: "Mauritius – Tropical Island",
+        description: "Explore flight options to Mauritius with Galaxy Tours Travels. Get convenient booking assistance and choose a suitable flight itinerary for your journey.",
+        image: "https://images.pexels.com/photos/33791769/pexels-photo-33791769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        destinations: "Port Louis · Grand Baie · Le Morne",
         highlights: [
-            'Ile aux Cerfs',
-            'Seven Coloured Earth',
-            'Black River Gorges',
-            'Catamaran Cruise'
-        ]
-    },
-    {
-        id: 'andaman',
-        country: 'Andaman',
-        title: 'Emerald Islands',
-        description: 'India\'s tropical paradise. Cell Islands, Havelock beaches, and world-class diving await in the Bay of Bengal.',
-        image: 'https://images.pexels.com/photos/37949155/pexels-photo-37949155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        nights: 5,
-        days: 6,
-        destinations: 'Port Blair · Havelock · Neil Island',
-        price: 42999,
-        rating: 4.7,
-        highlights: [
-            'Radhanagar Beach',
-            'Scuba Diving',
-            'Cellular Jail',
-            'Island Hopping'
+            "Flight Booking",
+            "Multiple Airline Options",
+            "Fare Options",
+            "Booking Assistance"
         ]
     }
 ];
 const categories = [
     {
-        label: 'All',
+        label: "All",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layout$2d$grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LayoutGrid$3e$__["LayoutGrid"]
     },
     {
-        label: 'Islands & Beaches',
+        label: "Islands & Beaches",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"]
     },
     {
-        label: 'Cities & Culture',
+        label: "Cities & Culture",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"]
     },
     {
-        label: 'Adventure & Nature',
+        label: "Adventure & Nature",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"]
     }
 ];
-const inclusions = [
+const services = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plane$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plane$3e$__["Plane"],
-        label: 'Return Flights'
+        label: "Flight Booking"
     },
     {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hotel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Hotel$3e$__["Hotel"],
-        label: 'Hotel Stay'
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__["Globe2"],
+        label: "Multiple Airlines"
     },
     {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"],
-        label: 'Daily Meals'
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$badge$2d$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BadgeDollarSign$3e$__["BadgeDollarSign"],
+        label: "Fare Options"
     },
     {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"],
-        label: 'Sightseeing'
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__["Headphones"],
+        label: "Booking Assistance"
     }
 ];
 function Packages() {
     _s();
-    const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('All');
-    // If the page is (re)loaded with a leftover #pkg-... hash in the URL from
-    // a previous visit, strip it immediately so the browser doesn't
-    // auto-scroll straight to the Packages section on open.
+    const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("All");
+    // Prevent leftover package hashes from automatically scrolling
+    // to a package card when the page initially loads.
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLayoutEffect"])({
         "Packages.useLayoutEffect": ()=>{
-            if (window.location.hash.startsWith('#pkg-')) {
+            if (window.location.hash.startsWith("#pkg-")) {
                 window.scrollTo(0, 0);
-                window.history.replaceState(null, '', window.location.pathname + window.location.search);
+                window.history.replaceState(null, "", window.location.pathname + window.location.search);
             }
         }
     }["Packages.useLayoutEffect"], []);
     const filtered = packages.filter((pkg)=>{
-        if (activeCategory === 'All') return true;
-        if (activeCategory === 'Islands & Beaches') return [
-            'srilanka',
-            'thailand',
-            'maldives',
-            'mauritius',
-            'andaman'
-        ].includes(pkg.id);
-        if (activeCategory === 'Cities & Culture') return [
-            'singapore',
-            'malaysia',
-            'vietnam',
-            'cambodia',
-            'uae'
-        ].includes(pkg.id);
-        if (activeCategory === 'Adventure & Nature') return [
-            'azerbaijan',
-            'kazakhstan'
-        ].includes(pkg.id);
+        if (activeCategory === "All") return true;
+        if (activeCategory === "Islands & Beaches") {
+            return [
+                "srilanka",
+                "thailand",
+                "maldives",
+                "mauritius"
+            ].includes(pkg.id);
+        }
+        if (activeCategory === "Cities & Culture") {
+            return [
+                "singapore",
+                "malaysia",
+                "vietnam",
+                "cambodia",
+                "uae"
+            ].includes(pkg.id);
+        }
+        if (activeCategory === "Adventure & Nature") {
+            return [
+                "azerbaijan",
+                "kazakhstan"
+            ].includes(pkg.id);
+        }
         return true;
     });
-    // Jump to a specific package card when a Destinations chip is clicked.
-    // Resets the category filter to "All" first, in case the target card
-    // is hidden under the currently active filter, then scrolls to it.
+    // Scroll to a specific destination when a destination chip
+    // from another section is clicked.
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Packages.useEffect": ()=>{
             const goToPackage = {
                 "Packages.useEffect.goToPackage": (id)=>{
-                    setActiveCategory('All');
+                    setActiveCategory("All");
                     requestAnimationFrame({
                         "Packages.useEffect.goToPackage": ()=>{
                             setTimeout({
                                 "Packages.useEffect.goToPackage": ()=>{
                                     document.getElementById(`pkg-${id}`)?.scrollIntoView({
-                                        behavior: 'smooth',
-                                        block: 'start'
+                                        behavior: "smooth",
+                                        block: "start"
                                     });
                                 }
                             }["Packages.useEffect.goToPackage"], 50);
@@ -754,28 +703,25 @@ function Packages() {
             const handleEvent = {
                 "Packages.useEffect.handleEvent": (e)=>{
                     const id = e.detail;
-                    if (id) goToPackage(id);
+                    if (id) {
+                        goToPackage(id);
+                    }
                 }
             }["Packages.useEffect.handleEvent"];
             const handleHash = {
                 "Packages.useEffect.handleHash": ()=>{
                     const hash = window.location.hash;
-                    if (hash.startsWith('#pkg-')) {
-                        goToPackage(hash.replace('#pkg-', ''));
+                    if (hash.startsWith("#pkg-")) {
+                        goToPackage(hash.replace("#pkg-", ""));
                     }
                 }
             }["Packages.useEffect.handleHash"];
-            window.addEventListener('galaxy:scrollToPackage', handleEvent);
-            window.addEventListener('hashchange', handleHash);
-            // Note: intentionally NOT calling handleHash() on mount — we only want
-            // to react to hash changes that happen *while* the user is on the page
-            // (e.g. clicking a Destinations chip), not auto-scroll on initial load
-            // just because the URL happens to still have a leftover #pkg-... hash
-            // from a previous visit.
+            window.addEventListener("galaxy:scrollToPackage", handleEvent);
+            window.addEventListener("hashchange", handleHash);
             return ({
                 "Packages.useEffect": ()=>{
-                    window.removeEventListener('galaxy:scrollToPackage', handleEvent);
-                    window.removeEventListener('hashchange', handleHash);
+                    window.removeEventListener("galaxy:scrollToPackage", handleEvent);
+                    window.removeEventListener("hashchange", handleHash);
                 }
             })["Packages.useEffect"];
         }
@@ -794,61 +740,61 @@ function Packages() {
                             children: "Explore The World"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 295,
+                            lineNumber: 334,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-4xl md:text-5xl font-bold text-[#0f2557] font-heading mb-4",
-                            children: "Featured Tour Packages"
+                            children: "International Flight Destinations"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 298,
+                            lineNumber: 338,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-neutral-500 max-w-2xl mx-auto leading-relaxed",
-                            children: "Handpicked itineraries across 12 breathtaking destinations. Each package includes flights, hotels, transfers, and guided sightseeing — all tailored for a seamless experience."
+                            children: "Explore popular international destinations with convenient flight booking services. Choose from available airlines and fare options and get booking assistance from Galaxy Tours Travels."
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 301,
+                            lineNumber: 342,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-16 h-1 bg-[#f97316] mx-auto rounded-full mt-6"
                         }, void 0, false, {
                             fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 306,
+                            lineNumber: 349,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/tourist/Packages.tsx",
-                    lineNumber: 294,
+                    lineNumber: 333,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-wrap justify-center gap-3 mb-14",
                     children: categories.map(({ label, icon: Icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setActiveCategory(label),
-                            className: `flex items-center gap-2 whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 border ${activeCategory === label ? 'bg-[#f97316] text-white border-[#f97316] shadow-lg shadow-orange-500/20' : 'bg-white text-neutral-600 border-[#e2e8f0] hover:bg-[#dbeafe] hover:text-[#0f2557]'}`,
+                            className: `flex items-center gap-2 whitespace-nowrap px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 border ${activeCategory === label ? "bg-[#f97316] text-white border-[#f97316] shadow-lg shadow-orange-500/20" : "bg-white text-neutral-600 border-[#e2e8f0] hover:bg-[#dbeafe] hover:text-[#0f2557]"}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
                                     size: 15
                                 }, void 0, false, {
                                     fileName: "[project]/app/tourist/Packages.tsx",
-                                    lineNumber: 321,
+                                    lineNumber: 364,
                                     columnNumber: 15
                                 }, this),
                                 label
                             ]
                         }, label, true, {
                             fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 312,
+                            lineNumber: 355,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/tourist/Packages.tsx",
-                    lineNumber: 310,
+                    lineNumber: 353,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -857,135 +803,67 @@ function Packages() {
                             pkg: pkg
                         }, pkg.id, false, {
                             fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 330,
+                            lineNumber: 373,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/tourist/Packages.tsx",
-                    lineNumber: 328,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-20",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-8",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "inline-block text-[#f97316] text-sm font-semibold tracking-widest uppercase mb-2",
-                                    children: "What You Get"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/tourist/Packages.tsx",
-                                    lineNumber: 337,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-2xl font-bold text-[#0f2557] font-heading",
-                                    children: "Every Package Includes"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/tourist/Packages.tsx",
-                                    lineNumber: 340,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 336,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-2 md:grid-cols-4 gap-0 bg-white rounded-3xl shadow-sm border border-[#e2e8f0] overflow-hidden",
-                            children: inclusions.map(({ icon: Icon, label }, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `flex flex-col items-center gap-3 py-8 px-4 text-center hover:bg-[#f8faff] transition-colors ${i < inclusions.length - 1 ? 'md:border-r border-[#f1f5f9]' : ''} ${i < 2 ? 'border-b md:border-b-0 border-[#f1f5f9]' : ''}`,
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-12 h-12 bg-[#0f2557] rounded-2xl flex items-center justify-center group-hover:bg-[#f97316] transition-colors",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                                className: "text-[#f97316] group-hover:text-white",
-                                                size: 22
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/tourist/Packages.tsx",
-                                                lineNumber: 353,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/tourist/Packages.tsx",
-                                            lineNumber: 352,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-[#0f2557] font-semibold text-sm",
-                                            children: label
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/tourist/Packages.tsx",
-                                            lineNumber: 355,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, label, true, {
-                                    fileName: "[project]/app/tourist/Packages.tsx",
-                                    lineNumber: 346,
-                                    columnNumber: 15
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/app/tourist/Packages.tsx",
-                            lineNumber: 344,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/tourist/Packages.tsx",
-                    lineNumber: 335,
+                    lineNumber: 371,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/tourist/Packages.tsx",
-            lineNumber: 292,
+            lineNumber: 330,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/tourist/Packages.tsx",
-        lineNumber: 291,
+        lineNumber: 326,
         columnNumber: 5
     }, this);
 }
-_s(Packages, "q4/OJE62rhVfnxeg9dBwsM4/j0M=");
+_s(Packages, "W0PgksDrx7ITlc79rucKl4sZcB8=");
 _c = Packages;
 const islandIds = [
-    'srilanka',
-    'thailand',
-    'maldives',
-    'mauritius',
-    'andaman'
+    "srilanka",
+    "thailand",
+    "maldives",
+    "mauritius"
 ];
 const cityIds = [
-    'singapore',
-    'malaysia',
-    'vietnam',
-    'cambodia',
-    'uae'
+    "singapore",
+    "malaysia",
+    "vietnam",
+    "cambodia",
+    "uae"
 ];
 const adventureIds = [
-    'azerbaijan',
-    'kazakhstan'
+    "azerbaijan",
+    "kazakhstan"
 ];
 function getPackageCategory(id) {
-    if (islandIds.includes(id)) return {
-        label: 'Island & Beach',
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"]
-    };
-    if (cityIds.includes(id)) return {
-        label: 'City & Culture',
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"]
-    };
-    if (adventureIds.includes(id)) return {
-        label: 'Adventure & Nature',
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"]
-    };
+    if (islandIds.includes(id)) {
+        return {
+            label: "Island & Beach",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$waves$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Waves$3e$__["Waves"]
+        };
+    }
+    if (cityIds.includes(id)) {
+        return {
+            label: "City & Culture",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"]
+        };
+    }
+    if (adventureIds.includes(id)) {
+        return {
+            label: "Adventure & Nature",
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"]
+        };
+    }
     return {
-        label: 'Getaway',
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layout$2d$grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LayoutGrid$3e$__["LayoutGrid"]
+        label: "International",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$earth$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe2$3e$__["Globe2"]
     };
 }
 function PackageCard({ pkg }) {
@@ -999,19 +877,19 @@ function PackageCard({ pkg }) {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: pkg.image,
-                        alt: pkg.country,
+                        alt: `${pkg.country} flight booking`,
                         loading: "lazy",
                         className: "absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 386,
+                        lineNumber: 454,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-t from-[#0f2557]/60 to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 392,
+                        lineNumber: 461,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1022,48 +900,45 @@ function PackageCard({ pkg }) {
                                 className: "text-[#f97316]"
                             }, void 0, false, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 399,
+                                lineNumber: 465,
                                 columnNumber: 11
                             }, this),
                             categoryLabel
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 398,
+                        lineNumber: 464,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-3 left-3 bg-white/95 backdrop-blur-sm rounded-lg px-3 py-1.5 shadow-lg",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[#0f2557] font-bold text-base font-heading",
-                                children: [
-                                    "₹",
-                                    pkg.price.toLocaleString('en-IN')
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 403,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-neutral-400 text-[10px] block leading-none",
-                                children: "/ person"
-                            }, void 0, false, {
-                                fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 406,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "flex items-center gap-1.5 text-[#0f2557] font-bold text-sm font-heading",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plane$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plane$3e$__["Plane"], {
+                                    size: 15,
+                                    className: "text-[#f97316]"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/tourist/Packages.tsx",
+                                    lineNumber: 476,
+                                    columnNumber: 13
+                                }, this),
+                                "Flight Booking"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/tourist/Packages.tsx",
+                            lineNumber: 475,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 402,
+                        lineNumber: 474,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/tourist/Packages.tsx",
-                lineNumber: 385,
+                lineNumber: 453,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1077,38 +952,31 @@ function PackageCard({ pkg }) {
                                 children: pkg.country
                             }, void 0, false, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 413,
+                                lineNumber: 490,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-1 text-sm",
+                                className: "flex items-center gap-1 text-xs font-semibold text-neutral-500",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                        className: "text-[#f97316] fill-[#f97316]",
-                                        size: 13
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plane$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plane$3e$__["Plane"], {
+                                        size: 13,
+                                        className: "text-[#f97316]"
                                     }, void 0, false, {
                                         fileName: "[project]/app/tourist/Packages.tsx",
-                                        lineNumber: 417,
+                                        lineNumber: 495,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-semibold text-neutral-700",
-                                        children: pkg.rating
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/tourist/Packages.tsx",
-                                        lineNumber: 418,
-                                        columnNumber: 13
-                                    }, this)
+                                    "International"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 416,
+                                lineNumber: 494,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 412,
+                        lineNumber: 489,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1116,68 +984,44 @@ function PackageCard({ pkg }) {
                         children: pkg.title
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 422,
+                        lineNumber: 504,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-neutral-500 text-sm leading-relaxed mb-3 line-clamp-2",
+                        className: "text-neutral-500 text-sm leading-relaxed mb-4 line-clamp-3",
                         children: pkg.description
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 425,
+                        lineNumber: 509,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-4 text-neutral-500 text-xs mb-4",
+                        className: "flex items-start gap-2 text-neutral-500 text-xs mb-4",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "flex items-center gap-1.5",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                        size: 13,
-                                        className: "text-[#f97316]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/tourist/Packages.tsx",
-                                        lineNumber: 431,
-                                        columnNumber: 13
-                                    }, this),
-                                    pkg.nights,
-                                    "N / ",
-                                    pkg.days,
-                                    "D"
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                size: 14,
+                                className: "text-[#f97316] shrink-0 mt-0.5"
+                            }, void 0, false, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 430,
+                                lineNumber: 515,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "flex items-center gap-1.5",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                        size: 13,
-                                        className: "text-[#f97316]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/tourist/Packages.tsx",
-                                        lineNumber: 435,
-                                        columnNumber: 13
-                                    }, this),
-                                    pkg.destinations
-                                ]
-                            }, void 0, true, {
+                                children: pkg.destinations
+                            }, void 0, false, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 434,
+                                lineNumber: 520,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 429,
+                        lineNumber: 514,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-1.5 mb-5 flex-1",
-                        children: pkg.highlights.map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: pkg.highlights.map((highlight)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex items-center gap-2 text-neutral-600 text-sm",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
@@ -1185,49 +1029,49 @@ function PackageCard({ pkg }) {
                                         className: "text-[#f97316] shrink-0"
                                     }, void 0, false, {
                                         fileName: "[project]/app/tourist/Packages.tsx",
-                                        lineNumber: 444,
+                                        lineNumber: 532,
                                         columnNumber: 15
                                     }, this),
-                                    h
+                                    highlight
                                 ]
-                            }, h, true, {
+                            }, highlight, true, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 443,
+                                lineNumber: 528,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 441,
+                        lineNumber: 526,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#contact",
                         className: "inline-flex items-center justify-center gap-2 bg-[#0f2557] hover:bg-[#f97316] text-white font-semibold px-5 py-3 rounded-xl transition-all duration-200",
                         children: [
-                            "Enquire Now",
+                            "Enquire for Flight",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                 size: 16
                             }, void 0, false, {
                                 fileName: "[project]/app/tourist/Packages.tsx",
-                                lineNumber: 455,
+                                lineNumber: 548,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/tourist/Packages.tsx",
-                        lineNumber: 450,
+                        lineNumber: 543,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/tourist/Packages.tsx",
-                lineNumber: 411,
+                lineNumber: 486,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/tourist/Packages.tsx",
-        lineNumber: 380,
+        lineNumber: 447,
         columnNumber: 5
     }, this);
 }

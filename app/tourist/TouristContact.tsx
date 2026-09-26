@@ -15,25 +15,25 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Call Us',
-    value: '+91 75078 32020',
+    value: '+91 9750 792 020',
     sub: 'Mon–Sat, 9am to 8pm',
   },
   {
     icon: Mail,
     label: 'Email Us',
-    value: 'info@galaxytours.com',
+    value: 'info@galaxytourstravels.com',
     sub: 'We reply within 24 hours',
   },
   {
     icon: MapPin,
     label: 'Visit Us',
-    value: 'Galaxy Tours & Travels',
-    sub: 'Chennai, Tamil Nadu, India',
+    value: 'Universal 36/22, Balaji Nagar',
+    sub: '2nd Street, Royapettah',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+91 75078 32020',
+    value: '+91 9750 792 020',
     sub: 'Quick chat support',
   },
 ];

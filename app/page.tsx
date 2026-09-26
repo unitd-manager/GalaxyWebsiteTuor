@@ -30,6 +30,7 @@ import TouristHero from "./tourist/TouristHero";
 import TouristAbout from "./tourist/TouristAbout";
 import Destinations from "./tourist/Destinations";
 import Packages from "./tourist/Packages";
+import Services from "./tourist/Services";
 import FAQ from "./tourist/FAQ";
 import TouristContact from "./tourist/TouristContact";
 import TouristFooter from "./tourist/TouristFooter";
@@ -43,6 +44,7 @@ export default function Home() {
         <TouristAbout />
         <Destinations />
         <Packages />
+        <Services />
         <FAQ />
         <TouristContact />
       </main>
