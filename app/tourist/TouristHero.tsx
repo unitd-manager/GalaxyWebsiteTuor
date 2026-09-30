@@ -5,7 +5,7 @@ import { ArrowRight, MapPin, Star, Users, Award } from 'lucide-react';
 
 const stats = [
   { icon: Users, value: '5000+', label: 'Happy Travellers' },
-  { icon: MapPin, value: '12+', label: 'Destinations' },
+  { icon: MapPin, value: '11+', label: 'Destinations' },
   { icon: Award, value: '10+', label: 'Years Experience' },
   { icon: Star, value: '100%', label: 'Satisfaction' },
 ];

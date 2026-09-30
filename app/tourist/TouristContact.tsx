@@ -15,7 +15,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Call Us',
-    value: '+91 9750 792 020',
+    value: '+91 9444 207 357',
     sub: 'Mon–Sat, 9am to 8pm',
   },
   {
@@ -27,13 +27,13 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Visit Us',
-    value: 'Universal 36/22, Balaji Nagar',
+    value: 'United Technologies 36/22, Balaji Nagar',
     sub: '2nd Street, Royapettah',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+91 9750 792 020',
+    value: '+91 9444 207 357',
     sub: 'Quick chat support',
   },
 ];
@@ -203,7 +203,7 @@ export default function TouristContact() {
                       <option>Kazakhstan</option>
                       <option>Maldives</option>
                       <option>Mauritius</option>
-                      <option>Andaman</option>
+                      {/* <option>Andaman</option> — hidden for now */}
                     </select>
                   </div>
                 </div>

@@ -219,7 +219,7 @@ const categories = [
 ];
 
 const services = [
-  { icon: Plane, label: "Flight Booking" },
+  { icon: Plane, label: "Book Your Flight" },
   { icon: Globe2, label: "Multiple Airlines" },
   { icon: BadgeDollarSign, label: "Fare Options" },
   { icon: Headphones, label: "Booking Assistance" },
@@ -477,7 +477,7 @@ function PackageCard({
               size={15}
               className="text-[#f97316]"
             />
-            Flight Booking
+            Book Your Flight
           </span>
         </div>
       </div>
@@ -544,7 +544,7 @@ function PackageCard({
           href="#contact"
           className="inline-flex items-center justify-center gap-2 bg-[#0f2557] hover:bg-[#f97316] text-white font-semibold px-5 py-3 rounded-xl transition-all duration-200"
         >
-          Enquire for Flight
+          Plan Your Trip
           <ArrowRight size={16} />
         </a>
 

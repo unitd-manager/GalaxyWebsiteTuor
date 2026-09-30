@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Destinations', href: '#destinations' },
   { label: 'Packages', href: '#packages' },
+  { label: 'Services', href: '#services' },
   { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -54,11 +55,11 @@ export default function TouristNavbar() {
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+919750792020"
+            href="tel:+919444207357"
             className="flex items-center gap-1.5 text-[#0f2557]/70 text-sm hover:text-[#0f2557] transition-colors"
           >
             <Phone size={14} />
-            +91 9750 792 020
+            +91 9444 207 357
           </a>
           <a
             href="#packages"

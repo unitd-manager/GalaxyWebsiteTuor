@@ -16,17 +16,17 @@ const Contact = () => {
       description: "Call us 24/7 for immediate assistance",
       action: {
         type: "tel",
-        url: "tel:+919750792020"
+        url: "tel:+919444207357"
       }
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      details: ["+91 9750792020"],
+      details: ["+91 9444207357"],
       description: "Chat with us on WhatsApp for quick responses",
       action: {
         type: "whatsapp",
-        url: "https://wa.me/919750792020"
+        url: "https://wa.me/919444207357"
       }
     },
     {
@@ -38,7 +38,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Office",
-      details: ["universal 36/22 ,Balaji nagar,2nd street,royapettah,chennai-600014"],
+      details: ["United Technologies 36/22 ,Balaji nagar,2nd street,royapettah,chennai-600014"],
       description: "Visit our office for consultation"
     },
     {

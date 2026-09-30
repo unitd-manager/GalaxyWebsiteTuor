@@ -6,7 +6,7 @@ import { ThemeProvider } from "./components/providers"
 // navbar (TouristNavbar) built in. Re-enable by uncommenting the import and
 // the <Navigation /> usage below if you restore the MACA homepage.
 // import Navigation from "./components/Navigation"
-import WhatsAppButton from "./components/WhatsAppButton"
+// import WhatsAppButton from "./components/WhatsAppButton" // hidden for now
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -37,7 +37,7 @@ export default function RootLayout({
         >
           {/* <Navigation /> */}
           {children}
-          <WhatsAppButton />
+          {/* <WhatsAppButton /> — hidden for now */}
           <Toaster />
         </ThemeProvider>
       </body>

@@ -15,7 +15,8 @@ const destinations = [
   { id: 'kazakhstan', name: 'Kazakhstan', emoji: '🏔️' },
   { id: 'maldives', name: 'Maldives', emoji: '🐠' },
   { id: 'mauritius', name: 'Mauritius', emoji: '🌊' },
-  { id: 'andaman', name: 'Andaman', emoji: '🏖️' },
+  // Hidden for now — uncomment to show Andaman again
+  // { id: 'andaman', name: 'Andaman', emoji: '🏖️' },
 ];
 
 export default function Destinations() {
@@ -35,7 +36,7 @@ export default function Destinations() {
             Our Destinations
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto leading-relaxed">
-            12 handpicked countries across Asia, the Middle East, and the
+            11 handpicked countries across Asia, the Middle East, and the
             Indian Ocean — each with its own unique story to tell.
           </p>
           <div className="w-16 h-1 bg-[#f97316] mx-auto rounded-full mt-6" />
