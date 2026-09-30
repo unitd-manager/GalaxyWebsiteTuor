@@ -6,7 +6,6 @@ import {
   Mail,
   MapPin,
   MessageCircle,
-  Clock,
   Send,
   CheckCircle,
 } from 'lucide-react';
@@ -16,7 +15,6 @@ const contactInfo = [
     icon: Phone,
     label: 'Call Us',
     value: '+91 9444 207 357',
-    sub: 'Mon–Sat, 9am to 8pm',
   },
   {
     icon: Mail,
@@ -27,7 +25,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Visit Us',
-    value: 'United Technologies 36/22, Balaji Nagar',
+    value: 'United Technologies, 36/22, Balaji Nagar',
     sub: '2nd Street, Royapettah',
   },
   {
@@ -61,65 +59,55 @@ export default function TouristContact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-[#0f2557] relative overflow-hidden">
+    <section id="contact" className="py-20 bg-[#0f2557] relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#f97316]/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        {/* Header */}
-        <div className="text-center mb-14">
-          <span className="inline-block text-[#f97316] text-sm font-semibold tracking-widest uppercase mb-3">
-            Get In Touch
-          </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white font-heading mb-4">
-            Plan Your Next Trip
-          </h2>
-          <p className="text-white/60 max-w-2xl mx-auto leading-relaxed">
-            Tell us where you want to go and we&apos;ll craft a personalised
-            quote within 24 hours. No obligation, no hidden fees.
-          </p>
-          <div className="w-16 h-1 bg-[#f97316] mx-auto rounded-full mt-6" />
-        </div>
-
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="grid lg:grid-cols-5 gap-8 xl:gap-12 items-start">
           {/* Contact info */}
-          <div className="lg:col-span-2 space-y-4">
-            {contactInfo.map(({ icon: Icon, label, value, sub }) => (
-              <div
-                key={label}
-                className="flex items-start gap-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:bg-white/10 transition-colors"
-              >
-                <div className="w-11 h-11 bg-[#f97316] rounded-xl flex items-center justify-center shrink-0">
-                  <Icon className="text-white" size={20} />
-                </div>
-                <div>
-                  <div className="text-white/50 text-xs uppercase tracking-wide mb-1">
-                    {label}
+          <div className="lg:col-span-2">
+            <div className="mb-8">
+              <span className="inline-block text-[#f97316] text-sm font-semibold uppercase mb-3">
+                Get In Touch
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-white font-heading mb-4">
+                Plan Your Next Trip
+              </h2>
+              <p className="text-white/65 leading-relaxed max-w-md">
+                Tell us where you want to go and we&apos;ll craft a personalised
+                quote within 24 hours. No obligation, no hidden fees.
+              </p>
+              <div className="w-16 h-1 bg-[#f97316] rounded-full mt-5" />
+            </div>
+            <div className="space-y-3">
+              {contactInfo.map(({ icon: Icon, label, value, sub }) => (
+                <div
+                  key={label}
+                  className="flex items-start gap-4 bg-white/5 border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-colors"
+                >
+                  <div className="w-10 h-10 bg-[#f97316] rounded-lg flex items-center justify-center shrink-0">
+                    <Icon className="text-white" size={20} />
                   </div>
-                  <div className="text-white font-semibold">{value}</div>
-                  <div className="text-white/40 text-xs mt-0.5">{sub}</div>
+                  <div>
+                    <div className="text-white/50 text-xs uppercase tracking-wide mb-1">
+                      {label}
+                    </div>
+                    <div className="text-white font-semibold">{value}</div>
+                    {sub && (
+                      <div className="text-white/40 text-xs mt-0.5">{sub}</div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
-
-            <div className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-2xl p-5">
-              <Clock className="text-[#f97316] shrink-0" size={20} />
-              <div>
-                <div className="text-white font-semibold text-sm">
-                  Office Hours
-                </div>
-                <div className="text-white/50 text-xs">
-                  Monday – Saturday: 9:00 AM – 8:00 PM
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
           {/* Form */}
           <div className="lg:col-span-3">
             {submitted ? (
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-12 text-center h-full flex flex-col items-center justify-center">
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-8 sm:p-12 text-center h-full min-h-[420px] flex flex-col items-center justify-center">
                 <div className="w-16 h-16 bg-[#f97316] rounded-full flex items-center justify-center mb-5">
                   <CheckCircle className="text-white" size={32} />
                 </div>
@@ -151,7 +139,7 @@ export default function TouristContact() {
             ) : (
               <form
                 onSubmit={handleSubmit}
-                className="bg-white rounded-3xl p-8 shadow-2xl"
+                className="bg-white rounded-2xl p-6 sm:p-8 shadow-2xl"
               >
                 <div className="grid sm:grid-cols-2 gap-5 mb-5">
                   <Field

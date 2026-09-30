@@ -23,6 +23,13 @@ const footerLinks = {
   Company: ['About Us', 'Packages', 'Contact', 'FAQ'],
 };
 
+const companyLinkTargets: Record<string, string> = {
+  'About Us': '#about',
+  Packages: '#packages',
+  Contact: '#contact',
+  FAQ: '#faq',
+};
+
 export default function TouristFooter() {
   return (
     <footer className="bg-[#0a1738] text-white">
@@ -106,7 +113,11 @@ export default function TouristFooter() {
                 {links.map((link) => (
                   <li key={link}>
                     <a
-                      href="#packages"
+                      href={
+                        title === 'Company'
+                          ? companyLinkTargets[link]
+                          : '#packages'
+                      }
                       className="text-white/50 hover:text-[#f97316] text-sm transition-colors"
                     >
                       {link}
@@ -130,7 +141,7 @@ export default function TouristFooter() {
           </div>
           <div className="flex items-center gap-2.5 text-white/60 text-sm">
             <MapPin className="text-[#f97316]" size={16} />
-            United Technologies <br/>36/22, Balaji Nagar, 2nd Street, Royapettah
+            United Technologies, <br/>36/22, Balaji Nagar, 2nd Street, Royapettah
           </div>
         </div>
       </div>

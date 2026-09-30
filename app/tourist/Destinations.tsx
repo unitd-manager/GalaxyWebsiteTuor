@@ -30,14 +30,14 @@ export default function Destinations() {
         {/* Header */}
         <div className="text-center mb-12">
           <span className="inline-block text-[#f97316] text-sm font-semibold tracking-widest uppercase mb-3">
-            Where We Go
+            Where We Fly
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-white font-heading mb-4">
-            Our Destinations
+            Popular Flight Destinations
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto leading-relaxed">
-            11 handpicked countries across Asia, the Middle East, and the
-            Indian Ocean — each with its own unique story to tell.
+            Book flights to 11 popular countries across Asia, the Middle East,
+            and the Indian Ocean at the best fares.
           </p>
           <div className="w-16 h-1 bg-[#f97316] mx-auto rounded-full mt-6" />
         </div>

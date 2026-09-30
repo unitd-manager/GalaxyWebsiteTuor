@@ -1,13 +1,13 @@
 "use client";
 
 // ...rest of the file stays exactly the same
-import { ArrowRight, MapPin, Star, Users, Award } from 'lucide-react';
+import { ArrowRight, MapPin, Users, Award, Headphones } from 'lucide-react';
 
 const stats = [
   { icon: Users, value: '5000+', label: 'Happy Travellers' },
   { icon: MapPin, value: '11+', label: 'Destinations' },
-  { icon: Award, value: '10+', label: 'Years Experience' },
-  { icon: Star, value: '100%', label: 'Satisfaction' },
+  { icon: Award, value: '20+', label: 'Years Experience' },
+  { icon: Headphones, value: '24/7', label: 'Support' },
 ];
 
 export default function TouristHero() {
@@ -48,10 +48,10 @@ export default function TouristHero() {
           </h1>
 
           <p className="text-white/75 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
-            Explore destinations around the world with convenient flight booking
-            services. Compare airline options, explore available fares, and get
-            expert booking assistance from Galaxy Tours &amp; Travels for a smooth
-            and hassle-free journey.
+            Discover the world with convenient flight booking services. Compare
+            airline options, check available fares, and get expert booking
+            assistance from Galaxy Tours &amp; Travels for a smooth and hassle-free
+            journey.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-16">
@@ -59,14 +59,14 @@ export default function TouristHero() {
               href="#packages"
               className="inline-flex items-center gap-2 bg-[#f97316] hover:bg-[#ea6c0a] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-2xl hover:shadow-orange-500/30 hover:-translate-y-0.5"
             >
-              Explore Packages
+              Book Your Flight
               <ArrowRight size={18} />
             </a>
             <a
               href="#contact"
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200"
             >
-              Get Custom Quote
+              Get Flight Quote
             </a>
           </div>
 

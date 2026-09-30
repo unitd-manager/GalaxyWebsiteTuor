@@ -6,37 +6,37 @@ import { CheckCircle, Globe, HeartHandshake, ShieldCheck, Headphones } from 'luc
 const values = [
   {
     icon: Globe,
-    title: 'Curated Experiences',
+    title: 'Best Fares',
     description:
-      'Every itinerary is crafted by destination experts to give you authentic, memorable moments.',
+      'Compare airlines and get the best deals on every route.',
   },
   {
     icon: HeartHandshake,
     title: 'Personal Attention',
     description:
-      'We treat every traveller as family — your comfort and preferences are our top priority.',
+      'We treat every traveller as family, your comfort and preferences are our top priority.',
   },
   {
     icon: ShieldCheck,
     title: 'Safe & Trusted',
     description:
-      'Licensed operator with 10+ years of experience and thousands of satisfied guests.',
+      'Over 20 years of experience and 5000+ satisfied travellers.',
   },
   {
     icon: Headphones,
     title: '24/7 Support',
     description:
-      'From booking to return, our team is always reachable for any assistance you need.',
+      'Always reachable for booking changes and travel assistance.',
   },
 ];
 
 const highlights = [
-  'IATA & licensed tour operator',
-  'Expert local guides at every destination',
-  'Flexible group & private packages',
-  'Best price guarantee',
+  'Best fare guarantee',
   'Transparent, no-hidden-fee pricing',
-  'Seamless visa & documentation support',
+  'Quick booking & instant e-tickets',
+  'Easy reschedule & cancellation support',
+  '24/7 customer support',
+  'Trusted by 5000+ happy travellers',
 ];
 
 export default function TouristAbout() {
@@ -58,15 +58,15 @@ export default function TouristAbout() {
           {/* Left — text */}
           <div>
             <p className="text-neutral-600 text-lg leading-relaxed mb-6">
-              Galaxy Tours &amp; Travels has been curating extraordinary travel
-              experiences since 2003. Based in Chennai, we specialise in
-              premium international packages across Asia, the Middle East, and
-              iconic island destinations.
+              Galaxy Tours &amp; Travels has been helping travellers book
+              flights since 2003. Based in Chennai, we specialise in
+              international flight tickets with the best fares and hassle-free
+              service.
             </p>
             <p className="text-neutral-600 leading-relaxed mb-8">
-              Our team of seasoned travel professionals manages every detail —
-              flights, accommodation, transfers, sightseeing, and more — so you
-              can focus entirely on soaking in the beauty of the world.
+              Our team of experienced travel professionals handles your flight
+              bookings, rescheduling, cancellations, and ticketing, so you can
+              travel stress-free.
             </p>
 
             {/* Highlights checklist */}
