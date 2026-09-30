@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Plane } from 'lucide-react';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -63,9 +63,10 @@ export default function TouristNavbar() {
           </a>
           <a
             href="#packages"
-            className="bg-[#f97316] hover:bg-[#ea6c0a] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 hover:shadow-lg"
+            className="inline-flex items-center justify-center gap-2 bg-[#f97316] hover:bg-[#ea6c0a] text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 hover:shadow-lg"
           >
-            View Packages
+            <Plane size={16} />
+            Book a Flight
           </a>
         </div>
 
@@ -95,9 +96,10 @@ export default function TouristNavbar() {
           <a
             href="#packages"
             onClick={() => setOpen(false)}
-            className="mt-4 block bg-[#f97316] text-white text-center font-semibold py-3 rounded-lg"
+            className="mt-4 flex items-center justify-center gap-2 bg-[#f97316] text-white text-center font-semibold py-3 rounded-lg"
           >
-            View Packages
+            <Plane size={16} />
+            Book a Flight
           </a>
         </div>
       )}

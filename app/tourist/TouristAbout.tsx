@@ -41,10 +41,10 @@ const highlights = [
 
 export default function TouristAbout() {
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="about" className="py-20 bg-[#f8faff]">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="inline-block text-[#f97316] text-sm font-semibold tracking-widest uppercase mb-3">
             Who We Are
           </span>
@@ -54,7 +54,7 @@ export default function TouristAbout() {
           <div className="w-16 h-1 bg-[#f97316] mx-auto rounded-full" />
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 xl:gap-14 items-start">
           {/* Left — text */}
           <div>
             <p className="text-neutral-600 text-lg leading-relaxed mb-6">
@@ -84,13 +84,13 @@ export default function TouristAbout() {
           </div>
 
           {/* Right — value cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {values.map(({ icon: Icon, title, description }) => (
               <div
                 key={title}
-                className="bg-[#f8faff] border border-[#dbeafe] rounded-2xl p-6 hover:shadow-lg hover:border-[#93c5fd] transition-all duration-300 group"
+                className="bg-white border border-[#e2e8f0] rounded-xl p-5 shadow-sm hover:shadow-md hover:border-[#f97316]/40 transition-all duration-300 group"
               >
-                <div className="w-11 h-11 bg-[#0f2557] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#f97316] transition-colors duration-300">
+                <div className="w-11 h-11 bg-[#0f2557] rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#f97316] transition-colors duration-300">
                   <Icon className="text-white" size={20} />
                 </div>
                 <h3 className="text-[#0f2557] font-bold text-base font-heading mb-2">
